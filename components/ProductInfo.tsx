@@ -130,8 +130,9 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
       >
         Add To Cart
       </button>
+    <Footer/>
     </div>
-  );
-};
-<Footer/>
+  ); 
+}; 
+
 export default ProductInfo;

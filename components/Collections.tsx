@@ -27,9 +27,10 @@ const Collections = async () => {
           ))}
         </div>
       )}
+      
     </div>
-  );
+  );<Footer/>
 };
-<Footer/>
+
 
 export default Collections;

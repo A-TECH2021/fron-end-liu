@@ -28,9 +28,11 @@ const Gallery = ({ productMedia }: { productMedia: string[] }) => {
           />
         ))}
       </div>
+      <Footer/>
     </div>
+   
   );
 };
-<Footer/>
+
 
 export default Gallery;
