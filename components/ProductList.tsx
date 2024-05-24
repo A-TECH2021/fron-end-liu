@@ -1,6 +1,6 @@
 import { getProducts } from "@/lib/actions/actions";
 import ProductCard from "./ProductCard";
-
+import Footer from "./Footer";
 const ProductList = async () => {
   const products = await getProducts();
 
@@ -19,5 +19,6 @@ const ProductList = async () => {
     </div>
   );
 };
+<Footer/>
 
 export default ProductList;

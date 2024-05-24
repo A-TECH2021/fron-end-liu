@@ -4,7 +4,7 @@ import { useState } from "react";
 import HeartFavorite from "./HeartFavorite";
 import { MinusCircle, PlusCircle } from "lucide-react";
 import useCart from "@/lib/hooks/useCart";
-
+import Footer from "./Footer";
 const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
   const [selectedColor, setSelectedColor] = useState<string>(
     productInfo.colors[0]
@@ -133,5 +133,5 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
     </div>
   );
 };
-
+<Footer/>
 export default ProductInfo;

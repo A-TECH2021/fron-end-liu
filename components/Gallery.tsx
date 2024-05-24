@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
-
+import Footer from "./Footer";
 const Gallery = ({ productMedia }: { productMedia: string[] }) => {
   const [mainImage, setMainImage] = useState(productMedia[0]);
 
@@ -31,5 +31,6 @@ const Gallery = ({ productMedia }: { productMedia: string[] }) => {
     </div>
   );
 };
+<Footer/>
 
 export default Gallery;
