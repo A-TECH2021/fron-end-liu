@@ -1,6 +1,7 @@
 import { getCollections } from "@/lib/actions/actions";
 import Image from "next/image";
 import Link from "next/link";
+import Footer from "./Footer";
 
 const Collections = async () => {
   const collections = await getCollections();
@@ -29,5 +30,6 @@ const Collections = async () => {
     </div>
   );
 };
+<Footer/>
 
 export default Collections;
